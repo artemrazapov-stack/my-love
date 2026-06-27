@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Наша история — 6 лет</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="site-locked">
+  <div class="noise"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="site-header" id="top">
+    <a class="logo" href="#top" aria-label="На главную">
+      <span class="logo-mark">♡</span>
+      <span class="logo-text">Наша история</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Открыть меню">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#story">История</a>
+      <a href="#gallery">Фото</a>
+      <a href="#map">Карта</a>
+      <a href="#artifacts">Артефакты</a>
+      <a href="#letter">Письмо</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="hero-bg-orb orb-one"></div>
+      <div class="hero-bg-orb orb-two"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">29 июня • 6 лет вместе</p>
+        <h1>
+          Сайт про нас,
+          <span>наши моменты</span>
+          и про то куда блять делся Артем
+        </h1>
+        <p class="hero-text">
+          Этот сайт поможет тебе найти меня)))0)))0
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#story">Начать путешествие</a>
+          <a class="btn btn-ghost" href="#letter">Открыть письмо</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal delay-1">
+        <div class="polaroid-stack">
+          <div class="polaroid polaroid-back"></div>
+          <div class="polaroid">
+            <!-- Фото главного экрана: поменяй только data-img="7.jpg" на своё имя файла -->
+            <div class="photo-placeholder photo-slot" data-img="7.jpg">
+              <span>Вставь фото</span>
+            </div>
+            
+          </div>
+        </div>
+        <div class="counter-card">
+          <span class="counter-number" id="daysTogether">0000</span>
+          <span class="counter-label">дней вместе</span>
+        </div>
+      </div>
+
+      <a class="scroll-hint" href="#story" aria-label="Прокрутить вниз">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="section intro" id="story">
+      <div class="section-heading reveal">
+        <p class="eyebrow">глава 1</p>
+        <h2>Как всё началось</h2>
+        <p>
+          
+        </p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <span class="timeline-date">05.05.2020</span>
+          <h3>Кому-то понравилась твоя анкета</h3>
+          <p>Алёна, 17, Челябинск просто напишите мне. на все вопросы отвечу в лс 🌋</p>
+        </article>
+
+        <article class="timeline-item reveal">
+          <span class="timeline-date">29.06.2020</span>
+          <h3>День, который стал нашим</h3>
+          <p>Го встр?) 📞</p>
+        </article>
+
+        <article class="timeline-item reveal">
+          <span class="timeline-date">2020–2026</span>
+          <h3>Лучшее время моей жизни</h3>
+          <p>Благодаря тебе</p>
+        </article>
+
+        <article class="timeline-item reveal">
+          <span class="timeline-date">2026</span>
+          <h3>Шесть лет</h3>
+          <p>Ебать дохуя</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section memory-wall" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">глава 2</p>
+        <h2>Стена воспоминаний</h2>
+        <p>Подобрал специально неинстаграмные, потому что они пизже</p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Карточка: поменяй data-img="1.jpg" на имя своей фотографии -->
+        <button class="memory-card reveal" data-title="Фото 1" data-text="Здесь будет описание этой фотографии." data-img="1.jpg">
+          <span class="photo-placeholder">Фото</span>
+          <strong>18+</strong>
+          <small>В лесочке сзади пристроился ай ай ай</small>
+        </button>
+        <!-- Карточка: поменяй data-img="2.jpg" на имя своей фотографии -->
+        <button class="memory-card reveal" data-title="Фото 2" data-text="Здесь будет описание этой фотографии." data-img="2.jpg">
+          <span class="photo-placeholder">Фото</span>
+          <strong>Куда то поехали в ебейший мороз</strong>
+          <small>холодно</small>
+        </button>
+        <!-- Карточка: поменяй data-img="3.jpg" на имя своей фотографии -->
+        <button class="memory-card reveal" data-title="Фото 3" data-text="Здесь будет описание этой фотографии." data-img="3.jpg">
+          <span class="photo-placeholder">Фото</span>
+          <strong>Сел на шею, ножки свесил</strong>
+          <small>Нахлебник</small>
+        </button>
+        <!-- Карточка: поменяй data-img="4.jpg" на имя своей фотографии -->
+        <button class="memory-card reveal" data-title="Фото 4" data-text="Здесь будет описание этой фотографии." data-img="4.jpg">
+          <span class="photo-placeholder">Фото</span>
+          <strong>База кормит</strong>
+          <small>база кормит</small>
+        </button>
+        <!-- Карточка: поменяй data-img="5.jpg" на имя своей фотографии -->
+        <button class="memory-card reveal" data-title="Фото 5" data-text="Здесь будет описание этой фотографии." data-img="5.jpg">
+          <span class="photo-placeholder">Фото</span>
+          <strong>Секси-альтушка</strong>
+          <small>готовится кушать</small>
+        </button>
+        <!-- Карточка: поменяй data-img="6.jpg" на имя своей фотографии -->
+        <button class="memory-card reveal" data-title="Фото 6" data-text="Здесь будет описание этой фотографии." data-img="6.jpg">
+          <span class="photo-placeholder">Фото</span>
+          <strong>Уже тепло</strong>
+          <small>Едем к папуле</small>
+        </button>
+      </div>
+    </section>
+
+    <section class="section map-section" id="map">
+      <div class="section-heading reveal">
+        <p class="eyebrow">глава 3</p>
+        <h2>Карта наших мест</h2>
+        <p>Я нахожусь в одном из них</p>
+      </div>
+
+      <div class="love-map reveal">
+        <div class="map-line"></div>
+        <button class="map-pin pin-1" data-place="Площадь революции" data-note="Где мы впервые встретились.">1</button>
+        <button class="map-pin pin-2" data-place="Подольская 42" data-note="Впервые оттарабанил">2</button>
+        <button class="map-pin pin-3" data-place="Парк Пушкина" data-note="Первый поцелуй">3</button>
+        <button class="map-pin pin-4" data-place="Раз заметила" data-note="С тебя сегодня анал">4</button>
+        <div class="map-card" id="mapCard">
+          <span>Нажми на точку</span>
+          <h3>Выбери место</h3>
+          <p>Здесь появится короткое описание.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section artifacts" id="artifacts">
+      <div class="section-heading reveal">
+        <p class="eyebrow">глава 4</p>
+        <h2>Наши артефакты</h2>
+
+      </div>
+
+      <div class="artifact-grid">
+        <article class="artifact-card reveal">
+          <div class="artifact-icon">✦</div>
+          <h3>Артефакт 1</h3>
+          <p>Мой медиатор, который ты давно потеряла</p>
+        </article>
+        <article class="artifact-card reveal">
+          <div class="artifact-icon">☾</div>
+          <h3>Артефакт 2</h3>
+          <p>Твоя страничка из какой-то книжки, которую я храню в паспорте</p>
+        </article>
+        
+      </div>
+    </section>
+
+    <section class="section capsule" id="capsule">
+      <div class="capsule-card reveal">
+        <p class="eyebrow">где же Артем?</p>
+        <h2>Подсказка</h2>
+
+        <button class="btn btn-primary" id="capsuleBtn">Открыть подсказку</button>
+      </div>
+    </section>
+
+    <section class="section letter" id="letter">
+      <div class="letter-paper reveal">
+        <p class="eyebrow">финал</p>
+        <h2>Письмо (если ты тыкнула сюда, как только перешла на сайт, то вали в начало, дойдешь сюда по порядку)</h2>
+        <p>
+          Я очень тебя люблю и хочу, чтобы наша любовь длилась, минимум, в 10 раз дольше. Просто дальше я, наверное, не проживу. А вы то блять долгожители, так что в один день, как в сказке, не умрем)0))0)0))))
+          Надеюсь, 7-ю годовщину встретим уже не как парень с девушкой.
+        </p>
+      
+        <span class="signature">С любовью, Артем</span>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="modal"></div>
+    <div class="modal-card">
+      <button class="modal-close" data-close="modal" aria-label="Закрыть">×</button>
+      <img class="modal-photo" id="modalPhoto" src="" alt="" hidden />
+      <p class="eyebrow" id="modalKicker">воспоминание</p>
+      <h2 id="modalTitle">Заголовок</h2>
+      <p id="modalText">Текст</p>
+    </div>
+  </div>
+
+  <audio id="bgMusic" src="audio/44tune - Твое имя.mp3" loop preload="auto"></audio>
+
+  <div class="enter-screen" id="enterScreen" aria-hidden="false">
+    <div class="enter-card">
+      <p class="eyebrow">29 июня • 6 лет вместе</p>
+      <h2>Рекомендую звук на 100%</h2>
+      <button class="btn btn-primary" id="enterSiteBtn" type="button">Открыть сайт</button>
+    </div>
+  </div>
+
+  <div class="custom-cursor" id="customCursor" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
